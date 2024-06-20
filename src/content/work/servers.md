@@ -1,5 +1,5 @@
 ---
-title: Rice
+title: Server Shenanigans
 publishDate: 2024-06-20 15:32:00
 img: /assets/sparc.png
 img_alt: A picture of an old sparc t4-1 server
