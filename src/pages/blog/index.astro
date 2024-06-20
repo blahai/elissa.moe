@@ -1,0 +1,11 @@
+---
+import Hero from '../../components/Hero.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../../components/FormattedDate.astro';
+
+---
+
+<BaseLayout title="My blog" description="Coming soon tm">
+	<Hero title="My blog!" tagline="It's empty" />
+</BaseLayout>
