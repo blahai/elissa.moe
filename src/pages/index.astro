@@ -1,38 +1,9 @@
 ---
-import NixStore from "../components/NixStore.astro";
 import "../styles/global.css";
+import Friend from "../components/Friends.astro";
+import NixStore from "../components/NixStore.astro";
 import CenteredBody from "../components/CenteredBody.astro";
-import { Code } from "astro:components";
-const nix_code = `{
-  name = "Elissa";
-  age = 19;
-
-  about = ''
-    First year compsci student
-  '';
-
-  interests = [
-    "nix"
-    "FOSS"
-    "self hosting"
-    "coding"
-  ];
-
-  languages = [
-    "rust"
-    "c++"
-    "nix"
-    "bash"
-  ];
-
-  socials = {
-    github = "blahai";
-    gitlab = "blahai";
-    bsky = "elissa.moe";
-    discord = 381494697073573899;
-  };
-}
-`;
+import { Image } from "astro:assets";
 ---
 
 <html lang="en">
@@ -52,8 +23,56 @@ const nix_code = `{
     <NixStore />
     <CenteredBody>
       <section>
-        <Code code={nix_code} lang="nix" theme="catppuccin-mocha" />
+        <div class="elissa">
+          <h1>Haiii</h1>
+          <p>
+            My name is Elissa and I'm a first year compsci student. I like
+            everything related to linux, nix, FOSS and self hosting.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="friends">
+          <h1>Cute ppl</h1>
+          <Friend name="zt64" url="https://zt64.dev/" />
+          <Friend name="paige" url="https://codeberg.com/paige" source="cobu" />
+          <Friend name="Vendicated" url="https://vendicated.dev/" />
+          <Friend name="sadan4" url="https://sadan.zip" />
+          <Friend name="shoritsu" url="https://shoritsu.xyz/" />
+          <Friend name="nin0-dev" url="https://nin0.dev/" />
+        </div>
+      </section>
+      <section>
+        <div class="minky">
+          <h1>Minky</h1>
+          <img src="https://minky.materii.dev/" alt="picture of our overlord" />
+        </div>
       </section>
     </CenteredBody>
   </body>
 </html>
+
+<style>
+  .elissa {
+    border-radius: 15px;
+    border: 2px solid #f5c2e7;
+    background-color: #1e1e2e;
+    padding: 10px;
+  }
+
+  .friends {
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px solid #f5c2e7;
+    background-color: #1e1e2e;
+    padding: 10px;
+  }
+
+  .minky {
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px solid #f5c2e7;
+    background-color: #1e1e2e;
+    padding: 10px;
+  }
+</style>

@@ -35,8 +35,6 @@
 /nix/store/wqlkv0cjacnm7arca156p3d3vh0kdbmk-pcre2-10.46
 /nix/store/yw9ks7f8sx384yw37xrsqdxn2ljw2d1y-libxml2-2.14.6
 /nix/store/00hykr959c348kx25l5vy3dny74sdpwl-apache-httpd-2.4.65
-/nix/store/yjll571442ajzgh5nmfjb4pzi9jnlc9y-php_only-grammar-0.0.0+rev=b2278db
-/nix/store/00qczg75nq7g0vrv0c34jr9i0arnfkp3-vimplugin-treesitter-grammar-php_only
 /nix/store/j6ls69li3158l5lvb9pvwm6l28na4a31-mpdecimal-4.0.1
 /nix/store/jf2x6y1rd5grkhjz7yxjkyc6zylkr50v-tzdata-2025b
 /nix/store/jqrf546vxc6nzf4575m4am3w4ywq765i-sqlite-3.50.4
@@ -228,12 +226,9 @@
 /nix/store/ssgxqa2h8m79dx1q2y19zd4lfcqhm3ba-libxcb-1.17.0
 /nix/store/02m1aarh7jv5adpv2l109my3x1853v0b-libx11-1.8.12
 /nix/store/03lwxny7bqvfs9srq71f1wxc7n3hjg7w-lm-sensors-3.6.2
-/nix/store/p2gqrjhrd31qz3i9srz8dhm1mkq5dq3x-goctl-grammar-0.0.0+rev=49c4353
-/nix/store/045iwqg7f5nhpnmlrpspzicr1i5k0mf0-vimplugin-treesitter-grammar-goctl
 /nix/store/04ahing7076i610yw0wyn536y2q1hfvb-libogg-1.3.6
 /nix/store/hg6lwmz1q9sgaag9r6f4n6wz79kc0lwj-luajit-2.1.1741730670
 /nix/store/04mixfgib99a2mc8h36lirzfvs0bvbd5-vimplugin-luajit2.1-nui.nvim-0.4.0-1-unstable-0.4.0-1
-/nix/store/04wp3cs1mfb8jpwjj63lczy2fpb8jbq4-xresources-grammar-0.0.0+rev=fd546d4
 /nix/store/054amd13nnnyyzvmay3a837ww381pnkl-python3.13-six-1.17.0
 /nix/store/058n7rvdsg4yg2jxizxwsrpwcdg3fcbp-potrace-1.16
 /nix/store/05nw6rxhhzazpg90ywwwjnbs0xq2nj32-etc-systemd-user-preset-00-nixos.preset
@@ -338,7 +333,6 @@
 /nix/store/nbqa9c5kyzy2i6d95vndpl5xym66hhn5-libblake3-1.8.2
 /nix/store/zwbnb87xr1h2jfbjvf3hnvqfs9ddj48x-libcpuid-0.8.1
 /nix/store/065ilv8ym245klkz4ghmkp8kiwwd3403-nix-util-2.32pre20250919_07b96c1d
-/nix/store/07222krka87dfd1x1hwcxdpkbdjdbl7f-fsh-grammar-0.0.0+rev=fad2e17
 /nix/store/0gij0ffmalnim8c0kik580s3874p933q-libxcb-util-0.4.1
 /nix/store/0q726vm2c4kfvyrmaa65c2dkkhxs8nlr-unixODBC-2.3.12
 /nix/store/0rkgxzsm2zyhaamf39khkg3y3hs3ri51-mariadb-connector-c-3.3.5
@@ -367,8 +361,6 @@
 /nix/store/iv8b6zpip603rk8w63sq9l22nq7jg343-qtsvg-6.9.2
 /nix/store/xbcqcnwkx07zvczimj194vdc22yazvvn-qtdeclarative-6.9.2
 /nix/store/07jnds91sd6d0m632mm95mmzkshwhnzh-ki18n-6.19.0
-/nix/store/450m5sk283gkkq0c6bxw58ydw5hkl0zd-readline-grammar-0.0.0+rev=74addc9
-/nix/store/07p6zc1b9f3sr7xq86lph4x5x272mmcp-vimplugin-treesitter-grammar-readline
 /nix/store/2b1x32z746rn31jypq7bvp8vb2c5gj83-source
 /nix/store/6vjzj2vl1193a9qbigdcj575ig45mv3q-proton-ge-bin-GE-Proton10-19-steamcompattool
 /nix/store/08fyd4b46r5v0q9wkmavw72mw3i0lakg-steam-run-fhsenv-profile
@@ -485,7 +477,6 @@
 /nix/store/khvba712pm92pplp2wzp1g6ya9dsv89n-curl-8.16.0
 /nix/store/n6cfnkpyq5hbfmmvcqpbrhpnxi84c48p-libdbusmenu-glib-16.04.0
 /nix/store/7zm8nc888h7hxxmpmq9l8h8i563l9j13-spicetify-Comfy
-/nix/store/14b47jpjiw56riwf4vqvf02p2wxzlmq8-query-grammar-neovim-0.11.4
 /nix/store/ag96fk1741pphp90cby09w9wgj0yyrm3-ruby-3.3.9
 /nix/store/k2bp8arjynqzs7h3jk5qir0rvqpwkwwr-ruby3.3-multi_json-1.15.0
 /nix/store/xqi6dicjdvkf2gb80va3fxwld1lmxf1d-ruby3.3-msgpack-1.7.5
@@ -494,20 +485,14 @@
 /nix/store/c0syx09xnc76jd37qghvg8h33la1dy5w-gemfile-and-lockfile
 /nix/store/z8z5p7xdbn9lfd3q050dwr3z294gz98f-bundler-2.7.1
 /nix/store/238qxxp415j38n0ymzcfza3im087kik1-neovim-ruby-env
-/nix/store/2m2p4qwyps8ym1gni3rdzg8zx1j23qar-vim-grammar-neovim-0.11.4
 /nix/store/a0ra919v6779zy95nlgnrnildasqgz9c-utf8proc-2.11.0
 /nix/store/09riawf1yw04g3114gh1lrbdwwg4b9ln-luajit2.1-lpeg-1.1.0-2
 /nix/store/5idg166pvil5ykk8rh38v8x1yb0hfvrh-luajit2.1-mpack-1.0.12-0
 /nix/store/lyrfljsivsssqcrzcmh4liys8iwl6lsd-luajit2.1-luabitop-1.0.2-3
 /nix/store/gq0v34zh2ag8bxlq4x7gs43704lnhrhg-luajit-2.1.1741730670-env
 /nix/store/km7imrqvxgqlm14p9cpjkdxghr95869r-libluv-1.51.0-1
-/nix/store/knv11a7qdjmgsid8s8yiblk5fpmhb08r-lua-grammar-neovim-0.11.4
 /nix/store/l6ad39y4mdicaimaz82gkgrdyrk4hz6h-unibilium-2.1.2
-/nix/store/mhg19zmfr6rjdj907a06k11r4v94g03k-c-grammar-neovim-0.11.4
 /nix/store/ngwq85jhah064zp5sim01im6l7xi3l8j-tree-sitter-0.25.6
-/nix/store/wwayhzq42g1gykp96qa8x9sk59hnnx35-markdown-grammar-neovim-0.11.4
-/nix/store/zkqknyhkyqvjsm9v606h4xa9fzyv1hsv-markdown_inline-grammar-neovim-0.11.4
-/nix/store/zp6wc2jryv28v7dkpidkigyxfjbkv9dl-vimdoc-grammar-neovim-0.11.4
 /nix/store/5vqgd0vxihah32l7fqxjmhmjb31ipqpy-neovim-unwrapped-0.11.4
 /nix/store/8jk93vmnyigvrdfpfzi95dm725llsfh2-vimplugin-friendly-snippets-2025-04-29
 /nix/store/9r2zb14lcq204kx9k6v1aaz7a2ansxds-libipt-2.1.2

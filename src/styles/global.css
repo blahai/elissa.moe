@@ -1,3 +1,5 @@
+@import "@fontsource/maple-mono";
+
 @font-face {
   font-family: "Maple Mono";
 }
@@ -29,6 +31,8 @@ body {
 
 * {
   box-sizing: border-box;
+  color: #cdd6f4;
+  font-family: "Maple Mono";
 }
 
 code {
@@ -37,5 +41,13 @@ code {
 
 h1 {
   font-size: 2.5rem;
-  color: #cdd6f4;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
