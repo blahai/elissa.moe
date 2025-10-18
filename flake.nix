@@ -31,6 +31,8 @@
         packages = with pkgs; [
           pnpm
           nodejs_24
+          prettier
+          prettierd
           nodePackages_latest.jsonlint
           astro-language-server
           tailwindcss-language-server

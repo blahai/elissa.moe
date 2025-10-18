@@ -1,0 +1,22 @@
+<div class="centered-body">
+  <div class="content">
+    <slot />
+  </div>
+</div>
+
+<style define:vars={{ maxWidth: "800px" }}>
+  .centered-body {
+    margin: 2em min(2em, 5%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    width: 100%;
+    max-width: var(--maxWidth);
+
+    @media (max-width: 900px) {
+      max-width: 100%;
+    }
+  }
+</style>
