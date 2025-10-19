@@ -4,6 +4,7 @@ import Friend from "../components/Friends.astro";
 import NixStore from "../components/NixStore.astro";
 import CenteredBody from "../components/CenteredBody.astro";
 import { Image } from "astro:assets";
+import elissa from "../assets/88x31.png";
 ---
 
 <html lang="en">
@@ -46,6 +47,36 @@ import { Image } from "astro:assets";
           <Friend name="isabelroses" url="https://isabelroses.com" />
           <Friend name="comfysage" url="https://robinroses.xyz/" />
           <Friend name="BatteredBunny" url="https://tired.moe/" />
+
+          <h2>88x31</h2>
+          <p>
+            <Image
+              src={elissa}
+              alt="my 88x31 made by paige"
+              width="88"
+              height="31"
+            />
+          </p>
+          <a
+            href="https://vendicated.dev"
+            title="vending machine"
+            rel="nofollow"
+          >
+            <img
+              src="https://vendicated.dev/assets/88x31/me.gif"
+              alt=""
+              width="88"
+              height="31"
+            />
+          </a>
+          <a href="https://isabelroses.com" title="isabel roses" rel="nofollow">
+            <img
+              src="https://isabelroses.com/badges/me.gif"
+              alt=""
+              width="88"
+              height="31"
+            />
+          </a>
         </div>
       </section>
       <section>
