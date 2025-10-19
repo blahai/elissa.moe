@@ -5,6 +5,7 @@ import NixStore from "../components/NixStore.astro";
 import CenteredBody from "../components/CenteredBody.astro";
 import { Image } from "astro:assets";
 import elissa from "../assets/88x31.png";
+import minky from "../assets/god.jpg";
 ---
 
 <html lang="en">
@@ -82,7 +83,7 @@ import elissa from "../assets/88x31.png";
       <section>
         <div class="minky">
           <h1>Minky</h1>
-          <img src="https://minky.materii.dev/" alt="picture of our overlord" />
+          <Image src={minky} alt="picture of our overlord" />
         </div>
       </section>
     </CenteredBody>
