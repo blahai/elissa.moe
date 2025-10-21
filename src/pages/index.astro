@@ -1,10 +1,10 @@
 ---
 import "../styles/global.css";
 import Friend from "../components/Friends.astro";
+import Button88x31 from "../components/Buttons.astro";
 import NixStore from "../components/NixStore.astro";
 import CenteredBody from "../components/CenteredBody.astro";
 import { Image } from "astro:assets";
-import elissa from "../assets/88x31.png";
 import minky from "../assets/god.jpg";
 ---
 
@@ -38,46 +38,45 @@ import minky from "../assets/god.jpg";
           <h1>Cute ppl</h1>
           <h2>vencordians</h2>
           <Friend name="zt64" url="https://zt64.dev/" />
-          <Friend name="paige" url="https://codeberg.com/paige" source="cobu" />
+          <Friend name="paige" url="https://codeberg.org/paige" source="cobu" />
           <Friend name="Vendicated" url="https://vendicated.dev/" />
-          <Friend name="sadan4" url="https://sadan.zip" />
+          <Friend name="llsc12" url="https://llsc12.me/" />
+          <Friend name="sadan4" url="https://sadan.zip/" />
           <Friend name="shoritsu" url="https://shoritsu.xyz/" />
           <Friend name="nin0-dev" url="https://nin0.dev/" />
           <Friend name="uncutified" url="https://uncutified.moe" />
-          <h2>nixxers</h2>
+          <h2>hell :3</h2>
           <Friend name="isabelroses" url="https://isabelroses.com" />
           <Friend name="comfysage" url="https://robinroses.xyz/" />
           <Friend name="BatteredBunny" url="https://tired.moe/" />
+          <Friend
+            name="thundertheidiot"
+            url="https://github.com/thundertheidiot"
+          />
 
           <h2>88x31</h2>
-          <p>
-            <Image
-              src={elissa}
-              alt="my 88x31 made by paige"
-              width="88"
-              height="31"
-            />
+          <Button88x31 name="me" url="/" title="my own one made by paige <3" />
+          <p class="buttons">
+            <Button88x31 name="vendicated" url="https://vendicated.dev/" />
+            <Button88x31 name="isabelroses" url="https://isabelroses.com/" />
+            <Button88x31 name="robinroses" url="https://robinroses.xyz/" />
+            <Button88x31 name="zoot" url="https://zt64.dev/" />
+            <Button88x31 name="paige" url="https://codeberg.org/paige" />
+            <Button88x31 name="salad" url="https://sadan.zip/" />
+            <Button88x31 name="ninuh" url="https://nin0.dev/" />
+            <Button88x31 name="kaya" url="https://tired.moe/" />
+            <Button88x31 name="recutified" url="https://uncutified.moe/" />
+            <Button88x31 name="wing" url="https://wingio.xyz/" />
+            <Button88x31 name="chloe" url="https://sapphic.moe/" />
+            <Button88x31 name="sketch" url="https://sketchni.uk/" />
+            <Button88x31 name="rushii" url="https://rushii.dev/" />
+            <Button88x31 name="sydney" url="https://sydney.blue/" />
+            <Button88x31 name="wearr" url="https://wearr.dev/" />
+            <Button88x31 name="caitlyn" url="https://caitlyn.moe/" />
+            <Button88x31 name="diza" url="https://dbw.neocities.org/" />
+            <Button88x31 name="tasky" url="https://tasky.nuxt.dev/" />
+            <Button88x31 name="marvin" url="https://nurmarv.in/" />
           </p>
-          <a
-            href="https://vendicated.dev"
-            title="vending machine"
-            rel="nofollow"
-          >
-            <img
-              src="https://vendicated.dev/assets/88x31/me.gif"
-              alt=""
-              width="88"
-              height="31"
-            />
-          </a>
-          <a href="https://isabelroses.com" title="isabel roses" rel="nofollow">
-            <img
-              src="https://isabelroses.com/badges/me.gif"
-              alt=""
-              width="88"
-              height="31"
-            />
-          </a>
         </div>
       </section>
       <section>
@@ -104,6 +103,13 @@ import minky from "../assets/god.jpg";
     border: 2px solid #f5c2e7;
     background-color: #1e1e2e;
     padding: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .minky {
