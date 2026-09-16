@@ -47,7 +47,48 @@ h2 {
   font-size: 2rem;
 }
 
+p {
+  font-size: 1rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.elissa {
+  border-radius: 15px;
+  border: 2px solid #f5c2e7;
+  background-color: #1e1e2e;
+  padding: 10px;
+}
+
+.friends {
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 2px solid #f5c2e7;
+  background-color: #1e1e2e;
+  padding: 10px;
+}
+
+.faces {
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.minky {
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 2px solid #f5c2e7;
+  background-color: #1e1e2e;
+  padding: 10px;
 }
