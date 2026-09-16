@@ -1,7 +1,7 @@
 {
   description = "elissa.moe";
 
-  inputs.nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+  inputs.nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst";
 
   outputs = {
     nixpkgs,
@@ -33,7 +33,6 @@
           nodejs_24
           prettier
           prettierd
-          nodePackages_latest.jsonlint
           astro-language-server
           tailwindcss-language-server
           typescript-language-server

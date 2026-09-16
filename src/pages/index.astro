@@ -10,8 +10,16 @@ import minky from "../assets/god.jpg";
 const targetDate = new Date("2025-10-17T00:00:00Z");
 function daysSince(date) {
   const now = new Date();
-  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const startOfTarget = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  const startOfToday = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate(),
+  );
+  const startOfTarget = new Date(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate(),
+  );
 
   const diffMs = startOfToday - startOfTarget;
   const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
@@ -23,11 +31,7 @@ const days = daysSince(targetDate);
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://github.com/blahai.png"
-    />
+    <link rel="icon" type="image/png" href="https://github.com/blahai.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="darkreader-lock" />
@@ -46,32 +50,36 @@ const days = daysSince(targetDate);
           <p>
             I'll add something actually useful to this site eventually (maybe)
           </p>
-          <p>
-            It has been {days} days without me adding anything useful
-          </p>
+          <p>It has been {days} days without me adding anything useful</p>
         </div>
       </section>
       <section>
         <div class="friends">
           <h1>Cute ppl</h1>
-          <Friend name="zt64" url="https://zt64.dev/" />
-          <Friend name="paige" url="https://paige.moe/" source="cobu" />
-          <Friend name="Vendicated" url="https://vendicated.dev/" />
-          <Friend name="llsc12" url="https://llsc12.me/" />
-          <Friend name="sadan4" url="https://sadan.zip/" />
-          <Friend name="shoritsu" url="https://shoritsu.carrd.co/" />
-          <Friend name="uncutified" url="https://uncutified.moe" />
-          <Friend name="isabelroses" url="https://isabelroses.com" />
-          <Friend name="comfysage" url="https://robinroses.xyz/" />
-          <Friend name="BatteredBunny" url="https://tired.moe/" />
-          <Friend
-            name="thundertheidiot"
-            url="https://github.com/thundertheidiot"
-          />
-          <Friend name="l6t9" url="https://lamp.delivery/" />
+          <p class="faces">
+            <Friend name="zt64" url="https://zt64.dev/" />
+            <Friend name="paige" url="https://paige.moe/" source="cobu" />
+            <Friend name="Vendicated" url="https://vendicated.dev/" />
+            <Friend name="llsc12" url="https://llsc12.me/" />
+            <Friend name="sadan4" url="https://sadan.zip/" />
+            <Friend name="shoritsu" url="https://shoritsu.carrd.co/" />
+            <Friend name="uncutified" url="https://uncutified.moe" />
+            <Friend name="isabelroses" url="https://isabelroses.com" />
+            <Friend name="comfysage" url="https://robinroses.xyz/" />
+            <Friend name="BatteredBunny" url="https://tired.moe/" />
+            <Friend
+              name="thundertheidiot"
+              url="https://github.com/thundertheidiot"
+            />
+            <Friend name="l6t9" url="https://lamp.delivery/" />
+          </p>
 
           <h2>88x31</h2>
-          <Button88x31 name="me" url="/88x31.png" title="my own one made by paige <3" />
+          <Button88x31
+            name="me"
+            url="/88x31.png"
+            title="my own one made by paige <3"
+          />
           <p class="buttons">
             <Button88x31 name="vendicated" url="https://vendicated.dev/" />
             <Button88x31 name="isabelroses" url="https://isabelroses.com/" />
@@ -123,6 +131,13 @@ const days = daysSince(targetDate);
     border: 2px solid #f5c2e7;
     background-color: #1e1e2e;
     padding: 10px;
+  }
+
+  .faces {
+    display: flex;
+    justify-content: left;
+    gap: 0.5rem;
+    flex-wrap: wrap;
   }
 
   .buttons {
